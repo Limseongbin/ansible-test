@@ -1,5 +1,0 @@
----
-- name: sample test
-  hosts: all
-  roles:
-    - sample
