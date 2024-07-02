@@ -22,7 +22,3 @@
       </body>
       </html>
     dest: /var/www/html/index.html
-
-- name: vars
-  debug:
-    msg: "gropu_var_sample: {{gropu_var_sample}}, var_a: {{var_a}}, var_b: {{var_a}}"
