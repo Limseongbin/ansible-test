@@ -1,6 +1,6 @@
 ---
 - name: Install and configure Apache HTTP Server
-  hosts: webservers
+  hosts: all
   become: yes
   tasks:
     - name: Ensure Apache is installed
