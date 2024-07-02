@@ -1,5 +1,5 @@
 ---
-- name: sample test
+- name: httpd install test
   hosts: all
   roles:
-    - sample
+    - httpd
